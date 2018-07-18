@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "type": "job",
+      "date": "June 2018",
+      "description": {
+        "what": "Joined the",
+        "emphasis": "Army Materiel Systems Analysis Activity",
+        "info": "Transferred federal service jobs from the Air Force to the Army. I am now working as a Computer Scientist developing geospatial-driven network analysis tools at Aberdeen Proving Grounds, MD."
+      }
+    },
+    {
+      "type": "school",
+      "date": "December 2015",
+      "description": {
+        "what": "Accepted into",
+        "emphasis": "Syracuse University's Masters Program",
+        "info": "Started taking courses at Syracuse University to achieve a Master's degree in Computer Engineering."
+      }
+    },
+    {
+      "type": "event",
+      "date": "October 2015",
+      "description": {
+        "what": "Obtained",
+        "emphasis": "CompTIA Security+ certification",
+        "info": "Proven to have core knowledge of cybersecurity-related best practices and vulnerabilities."
+      }
+    },
+    {
+      "type": "job",
+      "date": "July 2015",
+      "description": {
+        "what": "Joined the",
+        "emphasis": "Air Force Research Laboratory",
+        "info": "Directly out of college, I started as an Associate Computer Scientist with AFRL's Information Directorate in Rome, NY. I mostly worked on researching, integrating, and prototyping information management services."
+      }
+    },
+    {
+      "type": "event",
+      "date": "May 2015",
+      "description": {
+        "what": "Graduated from",
+        "emphasis": "University of Delaware",
+        "info": "Earned a Bachelor's of Science with Honors degree in the field of Computer Science with a Global Enterprise Technologies minor."
+      }
+    },
+    {
+      "type": "job",
+      "date": "June 2014",
+      "description": {
+        "what": "Interned at",
+        "emphasis": "Gemalto (formerly SafeNet Inc.)",
+        "info": "My very first internship as a Web Applications Developer for this large tech company was a very rewarding experience and allowed me to learn a large breadth of web technologies, such as HTML5, CSS3, C#, ASP.NET, Apache Server, Microsoft IIS, and more!"
+      }
+    },
+    {
+      "type": "school",
+      "date": "January 2014",
+      "description": {
+        "what": "Accapted into the",
+        "emphasis": "GET program at University of Delaware",
+        "info": "The Global Enterprise Technologies program at UD allowed me to take on an internship at a technology company in the area, while still earning credits towards my undergraduated degree!"
+      }
+    },
+    {
+      "type": "job",
+      "date": "December 2013",
+      "description": {
+        "what": "Started working at",
+        "emphasis": "DCANet",
+        "info": "My first tech-related job was working the support desk of a small internet service provider in Wilmington, DE serving small-to-medium-sized businesses in Delaware and Philadelphia."
+      }
+    },
+    {
+      "type": "school",
+      "date": "August 2011",
+      "description": {
+        "what": "Enrolled at",
+        "emphasis": "University of Delaware",
+        "info": "Fresh from high school, I knew my passion was coding and computer architectures, so I decided to pursue a Bachelor's in Computer Science degree at UD."
+      }
+    }
+  ]
+}

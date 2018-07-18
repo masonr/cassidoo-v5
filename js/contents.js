@@ -28,7 +28,7 @@ function buildHeader() {
 
 // pull highlights content
 function pullHighlights() {
-  return fetch('contents/highlights.json', buildHeader()).then(function(response) {
+  return fetch('contents/career.json', buildHeader()).then(function(response) {
     return response.json();
   });
 }
@@ -41,7 +41,7 @@ function pullPress() {
 }
 
 function highlights() {
-  var h = document.getElementById('highlights');
+  var h = document.getElementById('happenings');
   pullHighlights().then(function(r) {
     document.getElementsByClassName('loading')[0].classList.add('hide');
     r.data.forEach(function (x) {
