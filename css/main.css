@@ -1,0 +1,265 @@
+body {
+  background: #24252D;
+  color: #CACACC;
+  font-family: 'Roboto Mono', monospace;
+  font-size: .8em;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  max-width: 650px;
+}
+h1 {
+  font-weight: 400;
+  margin: 0;
+}
+h2 {
+  color: #696A6F;
+  font-weight: 300;
+  margin: 0 0 .5em 0;
+}
+.links {
+  margin: 0 0 1.5em 0;
+}
+.links a {
+  color: #CACACC;
+  margin: auto 1em auto 0;
+}
+.intro {
+  margin: 0 0 2em 0;
+}
+.intro a {
+  color: #E9BC3F;
+  text-decoration: none;
+}
+.intro .title {
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: .8em 0;
+}
+.intro .title:before {
+  content: '[+] ';
+}
+.intro .exp {
+  display: none;
+}
+.intro ul {
+  list-style-type: none;
+  padding: 0;
+}
+.intro ul li {
+  margin: 2em 0;
+}
+.changelog {
+  margin: 0 0 2em 0;
+}
+.changelog a {
+  color: #E9BC3F;
+  text-decoration: none;
+}
+.changelog .title {
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: .8em 0;
+}
+.changelog .title:before {
+  content: '[+] ';
+}
+.changelog .exp {
+  display: none;
+}
+.changelog ul {
+  list-style-type: none;
+  padding: 0;
+}
+.changelog ul li {
+  margin: 2em 0;
+}
+.changelog li {
+  display: flex;
+  justify-content: flex-start;
+}
+.changelog li .left {
+  color: #696A6F;
+  font-weight: 300;
+  min-width: 200px;
+}
+.changelog li .left:before {
+  content: '';
+  display: inline-block;
+  width: .7em;
+  height: .7em;
+  border-radius: 100%;
+  margin: 0 2em 0 0;
+}
+.changelog li .desc {
+  display: flex;
+  flex-direction: column;
+}
+.changelog li .desc .info {
+  visibility: hidden;
+  max-height: 0;
+  transition: visibility 0s, max-height 0.5s linear;
+}
+.changelog li .desc:hover .info {
+  visibility: visible;
+  max-height: 100px;
+  transition: max-height 0.5s linear;
+}
+.changelog .loading {
+  animation: blinker 1s linear infinite;
+  margin: 1em 0 0 0;
+}
+.changelog .loading.hide {
+  display: none;
+}
+.updates {
+  margin: 0 0 2em 0;
+}
+.updates a {
+  color: #E9BC3F;
+  text-decoration: none;
+}
+.updates .title {
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: .8em 0;
+}
+.updates .title:before {
+  content: '[+] ';
+}
+.updates .exp {
+  display: none;
+}
+.updates ul {
+  list-style-type: none;
+  padding: 0;
+}
+.updates ul li {
+  margin: 2em 0;
+}
+.updates .loading {
+  animation: blinker 1s linear infinite;
+  margin: 1em 0 0 0;
+}
+.updates .loading.hide {
+  display: none;
+}
+.bio {
+  margin: 0 0 2em 0;
+}
+.bio a {
+  color: #E9BC3F;
+  text-decoration: none;
+}
+.bio .title {
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: .8em 0;
+}
+.bio .title:before {
+  content: '[+] ';
+}
+.bio .exp {
+  display: none;
+}
+.bio ul {
+  list-style-type: none;
+  padding: 0;
+}
+.bio ul li {
+  margin: 2em 0;
+}
+.bio .exp {
+  background: #2f313b;
+  line-height: 1.8em;
+  margin: 2em 0 0 0;
+  padding: 0.8em 1.2em;
+}
+.expand .title {
+  cursor: pointer;
+}
+.expand .title:before {
+  content: '[-] ';
+}
+.expand .exp {
+  display: block;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.0;
+  }
+}
+.end {
+  margin: 0 0 2em 0;
+}
+.end a {
+  color: #E9BC3F;
+  text-decoration: none;
+}
+.end .title {
+  cursor: pointer;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: .8em 0;
+}
+.end .title:before {
+  content: '[+] ';
+}
+.end .exp {
+  display: none;
+}
+.end ul {
+  list-style-type: none;
+  padding: 0;
+}
+.end ul li {
+  margin: 2em 0;
+}
+.job .left:before {
+  background: #24D05A;
+}
+.job em {
+  color: #24D05A;
+  font-style: normal;
+}
+.event .left:before {
+  background: #EB4888;
+}
+.event em {
+  color: #EB4888;
+  font-style: normal;
+}
+.school .left:before {
+  background: #10A2F5;
+}
+.school em {
+  color: #10A2F5;
+  font-style: normal;
+}
+.flash {
+  animation: 1s flash infinite;
+}
+@keyframes flash {
+  0% {
+    text-shadow: 0px 0px 5px #cacacc;
+  }
+  50% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0px 0px 5px #cacacc;
+  }
+}
+@media (max-width: 600px) {
+  .changelog li .left {
+    min-width: 160px;
+  }
+  .links a {
+    margin: auto 1.5em auto 0;
+  }
+}
