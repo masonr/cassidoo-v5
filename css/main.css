@@ -12,6 +12,7 @@ body {
 h1 {
   font-weight: 400;
   margin: 0;
+  color: #10A2F5;
 }
 h2 {
   color: #696A6F;
@@ -64,20 +65,20 @@ h2 {
   font-weight: 700;
   margin: .8em 0;
 }
-.changelog .title:before {
+.changelog .title:before, .projects .title:before, .interests .title:before {
   content: '[+] ';
 }
-.changelog .exp {
+.changelog .exp, .projects .exp, .interests .exp {
   display: none;
 }
-.changelog ul {
+.changelog ul, .projects ul, .interests ul {
   list-style-type: none;
   padding: 0;
 }
-.changelog ul li {
+.changelog ul li, .projects ul li, .interests ul li {
   margin: 2em 0;
 }
-.changelog li {
+.changelog li, .projects li, .interests li {
   display: flex;
   justify-content: flex-start;
 }
@@ -86,7 +87,11 @@ h2 {
   font-weight: 300;
   min-width: 200px;
 }
-.changelog li .left:before {
+.projects li .left, .interests .left {
+  font-weight: bold;
+  min-width: 200px;
+}
+.changelog li .left:before, .projects li .left:before, .interests li .left:before {
   content: '';
   display: inline-block;
   width: .7em;
@@ -94,7 +99,44 @@ h2 {
   border-radius: 100%;
   margin: 0 2em 0 0;
 }
-.changelog li .desc {
+.projects li .left:before {
+  border-radius: 0%;
+}
+.interests li .left:after {
+  font-family: FontAwesome;
+  position: relative;
+  float: right;
+  margin-right: 25px;
+  font-size: 32px;
+}
+.interests .red .left:after  {
+  color: #EB4888;
+}
+.interests .green .left:after {
+  color: #24D05A;
+}
+.interests .blue .left:after {
+  color: #10A2F5;
+}
+.interests li .forum:after {
+  content: "\f086";
+}
+.interests li .music:after {
+  content: "\f001";
+}
+.interests li .code:after {
+  content: "\f121";
+}
+.interests li .game:after {
+  content: "\f1b7";
+}
+.interests li .family:after {
+  content: "\f004";
+}
+.interests li .server:after {
+  content: "\f233";
+}
+.changelog li .desc, .projects li .desc, .interests li .desc {
   display: flex;
   flex-direction: column;
 }
@@ -115,70 +157,25 @@ h2 {
 .changelog .loading.hide {
   display: none;
 }
-.updates {
+.projects, .interests {
   margin: 0 0 2em 0;
 }
-.updates a {
+.projects a, .interests a {
   color: #E9BC3F;
   text-decoration: none;
 }
-.updates .title {
+.projects .title, .interests .title {
   cursor: pointer;
   font-size: 1.2em;
   font-weight: 700;
   margin: .8em 0;
 }
-.updates .title:before {
-  content: '[+] ';
-}
-.updates .exp {
-  display: none;
-}
-.updates ul {
-  list-style-type: none;
-  padding: 0;
-}
-.updates ul li {
-  margin: 2em 0;
-}
-.updates .loading {
+.projects .loading, .interests .loading {
   animation: blinker 1s linear infinite;
   margin: 1em 0 0 0;
 }
-.updates .loading.hide {
+.projects .loading.hide, .interests .loading.hide {
   display: none;
-}
-.bio {
-  margin: 0 0 2em 0;
-}
-.bio a {
-  color: #E9BC3F;
-  text-decoration: none;
-}
-.bio .title {
-  cursor: pointer;
-  font-size: 1.2em;
-  font-weight: 700;
-  margin: .8em 0;
-}
-.bio .title:before {
-  content: '[+] ';
-}
-.bio .exp {
-  display: none;
-}
-.bio ul {
-  list-style-type: none;
-  padding: 0;
-}
-.bio ul li {
-  margin: 2em 0;
-}
-.bio .exp {
-  background: #2f313b;
-  line-height: 1.8em;
-  margin: 2em 0 0 0;
-  padding: 0.8em 1.2em;
 }
 .expand .title {
   cursor: pointer;
@@ -220,24 +217,24 @@ h2 {
 .end ul li {
   margin: 2em 0;
 }
-.job .left:before {
+.job .left:before, .green .left:before {
   background: #24D05A;
 }
-.job em {
+.job em, .green em {
   color: #24D05A;
   font-style: normal;
 }
-.event .left:before {
+.event .left:before, .red .left:before {
   background: #EB4888;
 }
-.event em {
+.event em, .red em {
   color: #EB4888;
   font-style: normal;
 }
-.school .left:before {
+.school .left:before, .blue .left:before {
   background: #10A2F5;
 }
-.school em {
+.school em, .blue em {
   color: #10A2F5;
   font-style: normal;
 }
@@ -256,10 +253,21 @@ h2 {
   }
 }
 @media (max-width: 600px) {
-  .changelog li .left {
+  .changelog li .left, .projects li .left, .interests li .left {
     min-width: 160px;
   }
   .links a {
     margin: auto 1.5em auto 0;
   }
+}
+@font-face {
+font-family: "FontAwesome";
+font-weight: normal;
+font-style : normal;
+       src : url("https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.eot");
+       src : url("https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.eot") format("embedded-opentype"),
+             url("https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2") format("woff2"),
+             url("https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.woff") format("woff"),
+             url("https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.ttf") format("truetype"),
+             url("https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/fonts/fontawesome-webfont.svg") format("svg");
 }

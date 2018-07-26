@@ -10,6 +10,24 @@
       }
     },
     {
+      "type": "event",
+      "date": "May 2018",
+      "description": {
+        "what": "Co-authored and published an",
+        "emphasis": "ACM journal article",
+        "info": "The journal article entitled, 'Adaptive Opportunistic Airborne Sensor Sharing', built on a previously published IEEE research paper on the same subject"
+      }
+    },
+    {
+      "type": "event",
+      "date": "September 2016",
+      "description": {
+        "what": "Co-authored and published an",
+        "emphasis": "IEEE research paper",
+        "info": "The research paper entitled, 'Adaptive Task Reallocation for Airborne Sensor Sharing', stemmed from the research I was conducting at the Air Force Research Lab"
+      }
+    },
+    {
       "type": "school",
       "date": "December 2015",
       "description": {

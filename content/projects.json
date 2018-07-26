@@ -1,0 +1,121 @@
+{
+  "data": [
+    {
+      "title": "PLEXiDRIVE",
+      "technology": "Bash",
+      "description": "Created extensive bash scripts to automate the process of uploading video media to a cloud provider (i.e. Google Drive) as a way to store Plex content",
+      "links": [{
+        "link_desc": "GitHub link",
+        "link_url": "https://github.com/masonr/PLEXiDRIVE"
+      }]
+    },
+    {
+      "title": "pyPatrol",
+      "technology": "Python",
+      "description": "A service monitoring node using Python and Sanic to monitor uptime of various services (ping, http responses, tcp sockets, steam game servers, and more!)",
+      "links": [{
+        "link_desc": "GitHub link",
+        "link_url": "https://github.com/masonr/pyPatrol"
+      }]
+    },
+    {
+      "title": "Warband Module",
+      "technology": "Docker/Bash",
+      "description": "Custom Mount and Blade Warband module to run Warband servers within a Pterodactyl Game Panel. Supports 15 Warband mods!",
+      "links": [{
+        "link_desc": "GitHub link",
+        "link_url": "https://github.com/masonr/pterodactyl-images/tree/mb-warband"
+      }, {
+        "link_desc": "Docker Hub link",
+        "link_url": "https://hub.docker.com/r/masonr/pterodactyl-images/"
+      }]
+    },
+    {
+      "title": "Warband Banners",
+      "technology": "Python/HTML",
+      "description": "This little project scrapes stats of a running Mount and Blade Warband game server to populate a server banner to display within game forums, websites, etc. to show live server stats.",
+      "links": [{
+        "link_desc": "Live Website",
+        "link_url": "https://warbandbanner.masonrowe.com/"
+      }, {
+        "link_desc": "FSE Forum Thread",
+        "link_url": "https://www.fsegames.eu/forum/index.php?topic=36591.0"
+      }, {
+        "link_desc": "GitHub link",
+        "link_url": "https://github.com/masonr/Warband-Banner-Generator"
+      }]
+    },
+    {
+      "title": "Holdfast Banners",
+      "technology": "Python/HTML",
+      "description": "This project stemmed from the Warband Banner Generator project and simply adapted it for Holdfast: Nations at War servers. This uses a Steam server query library for Python to get the live server stats.",
+      "links": [{
+        "link_desc": "Live Website",
+        "link_url": "https://holdfastbanner.masonrowe.com/"
+      }, {
+        "link_desc": "Holdfast Forum Thread",
+        "link_url": "http://www.holdfastgame.com/forum/index.php?topic=2357"
+      }, {
+        "link_desc": "GitHub link",
+        "link_url": "https://github.com/masonr/Holdfast-Banner-Generator"
+      }]
+    },
+    {
+      "title": "TAK Server",
+      "technology": "Docker/Bash",
+      "description": "While with the Air Force Research Laboratory, I converted the installation process of the Tactical Assault Kit (TAK) server (which is an Information Mgmt. server empowering Android Tactical Assault Kit [ATAK] clients) into an easy to use and rapidly deployable Docker container and bash scripts. This drastically cut down deployment and setup times to get soldiers connected on the battlefield.",
+      "links": []
+    },
+    {
+      "title": "LowEndStorage",
+      "technology": "HTML",
+      "description": "This site compiles a sortable list of hosting providers, which offer ample amounts of storage space (250GB+) at dirt-cheap pricing. Most listed providers are active members of the LowEndTalk community.",
+      "links": [{
+        "link_desc": "Live Website",
+        "link_url": "https://www.lowendstorage.win"
+      }]
+    },
+    {
+      "title": "Intern Project",
+      "technology": "Business Analysis",
+      "description": "As part of my internship with SafeNet Inc, along with a small group of interns, we examined the business' practices to identify a possible innovation. We then decided to recommend the company invest in a Business Process Management (BPM) tool. We analyzed and interview prospective vendors to find the best fit and did a business case analysis that determined an estimated 1 Million dollars could be saved annually in employees time.",
+      "links": []
+    },
+    {
+      "title": "Physics Phestival",
+      "technology": "HTML5/JavaScript",
+      "description": "This was a project for an educational game design course where we used the Phaser JavaScript-based game engine to create a game to help reinforce Physics concepts for a middle-school class in Chester, PA.",
+      "links": [{
+        "link_desc": "Live Website",
+        "link_url": "https://www.masonrowe.com/PhysicsPhestival/"
+      }]
+    },
+    {
+      "title": "This Site",
+      "technology": "HTML/JavaScript",
+      "description": "This site was first designed and crafted by Cassidy Williams and is a fork of her original site. With a couple of tweaks, I adapted the site for my needs (replacing a couple sections and fiddling with the JavaScript). The overall theme and feel were mostly kept intact.",
+      "links": [{
+        "link_desc": "Live Website",
+        "link_url": "https://rowe.sh"
+      }, {
+        "link_desc": "GitHub link",
+        "link_url": "https://github.com/masonr/personal-site"
+      }]
+    },
+    {
+      "title": "Old Website",
+      "technology": "HTML/CSS",
+      "description": "My old website (which replaced an even older website) which was aimed at creating a responsive and simple site to give a little information about myself.",
+      "links": [{
+        "link_desc": "Live Website",
+        "link_url": "https://www.masonrowe.com"
+      }]
+    },
+    {
+      "title": "Other Projects",
+      "technology": "Various",
+      "description": "Due to the nature of my line of work, there's many projects I've worked on that I cannot give details about. However, I have done extensive programming in: Python, Bash, C#, ASP.NET, Java, MATLAB, NodeJS, JavaScript, and more! And I've used many technologies including: Docker (+ compose), Swagger, ZeroMQ, PostgreSQL, WMTS, HPC, SQL Server, and many more!",
+      "links": []
+    }
+  ]
+}

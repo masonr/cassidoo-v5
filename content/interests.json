@@ -1,0 +1,68 @@
+{
+  "data": [
+    {
+      "title": "Drums",
+      "icon": "music",
+      "description": "I've been playing drums since elementary school. I became the drum captain and band president of my world-traveling high school marching band. Also, I was in a couple heavy metal bands (see links below).",
+      "links": [{
+        "link_desc": "SASC Band",
+        "link_url": "https://smileasshecries.bandcamp.com/"
+      }, {
+        "link_desc": "OWD Band",
+        "link_url": "https://www.youtube.com/user/OurWakingDeception"
+      }, {
+        "link_desc": "Last.fm Profile",
+        "link_url": "https://www.last.fm/user/hadrian123"
+      }]
+    }, {
+      "title": "Gaming",
+      "icon": "game",
+      "description": "I enjoy playing PC video games and help run a couple gaming communities. I maintain and administer our game servers and help run our community events. Currently, I mostly enjoy playing Mount & Blade Warband (NW + mods) and Overwatch.",
+      "links": [{
+        "link_desc": "Steam Profile",
+        "link_url": "http://www.steamcommunity.com/id/Hadrian123"
+      }, {
+        "link_desc": "Warband Collective",
+        "link_url": "https://www.warbandcollective.com"
+      }]
+    }, {
+      "title": "Family",
+      "icon": "family",
+      "description": "My family is very important to me. I love spending time with my Wife and Son. We enjoy going to the beach, watching TV Shows & Movies, and going out to stuff our faces with delicious food.",
+      "links": []
+    }, {
+      "title": "Coding",
+      "icon": "code",
+      "description": "As shown in the Projects section above, I enjoy software development and coding for fun. My current project and goal is to sharpen my python skills by developing a python-based service monitoring application, called pyPatrol.",
+      "links": [{
+        "link_desc": "GitHub Projects",
+        "link_url": "https://github.com/masonr?tab=repositories"
+      }]
+    }, {
+          "title": "Tech Forums",
+          "icon": "forum",
+          "description": "I actively partcipate in and help moderate a couple of server and technology related forums. These communities are passionate about self-hosting applications and experimenting with new technologies.",
+          "links": [{
+            "link_desc": "HostBalls Forum",
+            "link_url": "https://hostballs.com"
+          }, {
+            "link_desc": "LowEndTalk (LET) Forum",
+            "link_url": "https://www.lowendtalk.com"
+          }]
+    }, {
+      "title": "Servers",
+      "icon": "server",
+      "description": "I love to build, setup, administer, utilize, and experiment on Linux-based servers. I have a couple machines at home serving various purposes along with a slew of rented dedicated and virtual private servers performing other functions.",
+      "links": [{
+        "link_desc": "Home Plex Server",
+        "link_url": "https://imgur.com/a/uYfEkvZ"
+      }, {
+        "link_desc": "Home Server",
+        "link_url": "http://imgur.com/a/Zp4Co"
+      }, {
+        "link_desc": "Server Status",
+        "link_url": "https://masonr.cf"
+      }]
+    }
+  ]
+}
