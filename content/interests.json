@@ -39,16 +39,16 @@
         "link_url": "https://github.com/masonr?tab=repositories"
       }]
     }, {
-          "title": "Tech Forums",
-          "icon": "forum",
-          "description": "I actively partcipate in and help moderate a couple of server and technology related forums. These communities are passionate about self-hosting applications and experimenting with new technologies.",
-          "links": [{
-            "link_desc": "HostBalls Forum",
-            "link_url": "https://hostballs.com"
-          }, {
-            "link_desc": "LowEndTalk (LET) Forum",
-            "link_url": "https://www.lowendtalk.com"
-          }]
+      "title": "Tech Forums",
+      "icon": "forum",
+      "description": "I actively partcipate in and help moderate a couple of server and technology related forums. These communities are passionate about self-hosting applications and experimenting with new technologies.",
+      "links": [{
+        "link_desc": "HostBalls Forum",
+        "link_url": "https://hostballs.com"
+      }, {
+        "link_desc": "LowEndTalk (LET) Forum",
+        "link_url": "https://www.lowendtalk.com"
+      }]
     }, {
       "title": "Servers",
       "icon": "server",
