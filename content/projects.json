@@ -68,11 +68,14 @@
     },
     {
       "title": "LowEndStorage",
-      "technology": "HTML",
+      "technology": "HTML/JavaScript",
       "description": "This site compiles a sortable list of hosting providers, which offer ample amounts of storage space (250GB+) at dirt-cheap pricing. Most listed providers are active members of the LowEndTalk community.",
       "links": [{
         "link_desc": "Live Website",
         "link_url": "https://www.lowendstorage.win"
+      }, {
+        "link_desc": "GitHub link",
+        "link_url": "https://github.com/masonr/LowEndStorage"
       }]
     },
     {
