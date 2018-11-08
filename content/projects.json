@@ -14,17 +14,26 @@
       "technology": "Python",
       "description": "A service monitoring node using Python and Sanic to monitor uptime of various services (ping, http responses, tcp sockets, steam game servers, and more!)",
       "links": [{
-        "link_desc": "GitHub link",
-        "link_url": "https://github.com/masonr/pyPatrol"
+        "link_desc": "Live Website",
+        "link_url": "https://pypatrol.io"
+      }, {
+        "link_desc": "pyPatrol-node GitHub",
+        "link_url": "https://github.com/masonr/pyPatrol-node"
+      }, {
+        "link_desc": "pyPatrol-server GitHub",
+        "link_url": "https://github.com/masonr/pyPatrol-server"
       }]
     },
     {
-      "title": "Warband Module",
+      "title": "Game Panel Modules",
       "technology": "Docker/Bash",
-      "description": "Custom Mount and Blade Warband module to run Warband servers within a Pterodactyl Game Panel. Supports 15 Warband mods!",
+      "description": "Custom modules to run game servers within a Pterodactyl Game Panel.",
       "links": [{
-        "link_desc": "GitHub link",
+        "link_desc": "M&B Warband",
         "link_url": "https://github.com/masonr/pterodactyl-images/tree/mb-warband"
+      }, {
+        "link_desc": "Holdfast NaW",
+        "link_url": "https://github.com/masonr/pterodactyl-images/tree/holdfast"
       }, {
         "link_desc": "Docker Hub link",
         "link_url": "https://hub.docker.com/r/masonr/pterodactyl-images/"
@@ -61,12 +70,6 @@
       }]
     },
     {
-      "title": "TAK Server",
-      "technology": "Docker/Bash",
-      "description": "While with the Air Force Research Laboratory, I converted the installation process of the Tactical Assault Kit (TAK) server (which is an Information Mgmt. server empowering Android Tactical Assault Kit [ATAK] clients) into an easy to use and rapidly deployable Docker container and bash scripts. This drastically cut down deployment and setup times to get soldiers connected on the battlefield.",
-      "links": []
-    },
-    {
       "title": "LowEndStorage",
       "technology": "HTML/JavaScript",
       "description": "This site compiles a sortable list of hosting providers, which offer ample amounts of storage space (250GB+) at dirt-cheap pricing. Most listed providers are active members of the LowEndTalk community.",
@@ -79,10 +82,16 @@
       }]
     },
     {
-      "title": "Intern Project",
-      "technology": "Business Analysis",
-      "description": "As part of my internship with SafeNet Inc, along with a small group of interns, we examined the business' practices to identify a possible innovation. We then decided to recommend the company invest in a Business Process Management (BPM) tool. We analyzed and interview prospective vendors to find the best fit and did a business case analysis that determined an estimated 1 Million dollars could be saved annually in employees time.",
-      "links": []
+      "title": "License Verification Bot",
+      "technology": "Python",
+      "description": "Simple Discord bot that will verify WHMCS and Blesta billing panel licenses.",
+      "links": [{
+        "link_desc": "GitHub link",
+        "link_url": "https://github.com/masonr/Discord-Billing-License-Bot/"
+      }, {
+        "link_desc": "HostBalls Thread",
+        "link_url": "https://hostballs.com/t/whmcs-blesta-license-verification-discord-bot/1266"
+      }]
     },
     {
       "title": "Physics Phestival",
@@ -113,12 +122,6 @@
         "link_desc": "Live Website",
         "link_url": "https://www.masonrowe.com"
       }]
-    },
-    {
-      "title": "Other Projects",
-      "technology": "Various",
-      "description": "Due to the nature of my line of work, there's many projects I've worked on that I cannot give details about. However, I have done extensive programming in: Python, Bash, C#, ASP.NET, Java, MATLAB, NodeJS, JavaScript, and more! And I've used many technologies including: Docker (+ compose), Swagger, ZeroMQ, PostgreSQL, WMTS, HPC, SQL Server, and many more!",
-      "links": []
     }
   ]
 }
