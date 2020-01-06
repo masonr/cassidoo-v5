@@ -14,9 +14,6 @@
       "technology": "Python",
       "description": "A service monitoring node using Python and Sanic to monitor uptime of various services (ping, http responses, tcp sockets, steam game servers, and more!)",
       "links": [{
-        "link_desc": "Live Website",
-        "link_url": "https://pypatrol.io"
-      }, {
         "link_desc": "pyPatrol-node GitHub",
         "link_url": "https://github.com/masonr/pyPatrol-node"
       }, {

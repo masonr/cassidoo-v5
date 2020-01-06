@@ -1,12 +1,21 @@
 {
   "data": [
     {
+      "type": "school",
+      "date": "May 2019",
+      "description": {
+        "what": "Graduated from",
+        "emphasis": "Syracuse University",
+        "info": "Earned a Master's of Science degree in the field of Computer Engineering."
+      }
+    },
+    {
       "type": "job",
       "date": "June 2018",
       "description": {
         "what": "Joined the",
-        "emphasis": "Army Materiel Systems Analysis Activity",
-        "info": "Transferred federal service jobs from the Air Force to the Army. I am now working as a Computer Scientist developing geospatial-driven network analysis tools at Aberdeen Proving Grounds, MD."
+        "emphasis": "Army Data & Analysis Center",
+        "info": "Transferred federal service jobs from the Air Force to the Army. I am now working as a Computer Engineer working on Modeling & Simulation software for Network & Communications analysis at Aberdeen Proving Grounds, MD."
       }
     },
     {
