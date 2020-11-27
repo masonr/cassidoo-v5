@@ -43,11 +43,11 @@
       "icon": "forum",
       "description": "I actively partcipate in and contribute to a couple of server and technology related forums. These communities revolve around the hosting industry and sharing server-related expertise.",
       "links": [{
-        "link_desc": "HostBalls Forum",
-        "link_url": "https://hostballs.com"
+        "link_desc": "HostedTalk Forum",
+        "link_url": "https://hostedtalk.com"
       }, {
-        "link_desc": "LowEndTalk (LET) Forum",
-        "link_url": "https://www.lowendtalk.com"
+        "link_desc": "LowEndSpirit (LES) Forum",
+        "link_url": "https://talk.lowendspirit.com"
       }]
     }, {
       "title": "Servers",
@@ -61,7 +61,7 @@
         "link_url": "http://imgur.com/a/Zp4Co"
       }, {
         "link_desc": "Server Status",
-        "link_url": "https://masonr.cf"
+        "link_url": "https://status.rowe.sh"
       }]
     }
   ]
